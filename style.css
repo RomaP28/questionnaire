@@ -2,6 +2,22 @@ html {
   font-family: DejaVu Sans Mono, monospace;
 }
 
+.styleform {
+  width: 260px; height: 310px;
+  border: solid 1px;
+  border-color: #000;
+  text-align: center; 
+  margin:0 auto 0 auto;
+}
+
+.styleradio {
+  text-align: left; 
+}
+.stylerad {
+  width: 140px; height: 150px;
+  margin-left: 60px;
+}
+
 .hide
 {
   display: none;
@@ -27,4 +43,29 @@ input {
 
 input:checked {
   border: 6px solid black;
+}
+
+button,
+h3 {
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 0;
+  border: 0;
+  font-size: 14px;
+}
+
+button:hover,
+button:focus {
+  color: #999;
+}
+
+button:active {
+  background-color: white;
+  color: black;
+  outline: 1px solid black;
+}
+
+img {
+  margin-top: 5px;
 }
